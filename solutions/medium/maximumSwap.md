@@ -25,11 +25,11 @@ The given number is in the range [0, 10^8]
 ### Solution
 
 ```javascript
-const maximumSwap = (num) => {
+const maximumSwap = function(num) {
   const arr = ''.split.call(num, '')
   const swapArr = (arr) => {
-    const max = Math.max.apply(null, arr)
-    const lastIndex = arr.lastIndexOf(max.toString())
+    const max = Math.max.apply(null, arr).toString()
+    const lastIndex = arr.lastIndexOf(max)
     if (lastIndex > 0 && arr[0] !== max) {
       arr[lastIndex] = arr[0]
       arr[0] = max
