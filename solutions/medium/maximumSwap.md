@@ -25,17 +25,11 @@ The given number is in the range [0, 10^8]
 ### Solution
 
 ```javascript
-const maximumSwap = function(num) {
+const maximumSwap = (num) => {
   const arr = ''.split.call(num, '')
   const swapArr = (arr) => {
     const max = Math.max.apply(null, arr)
-    let lastIndex, i = 0
-    while (++i < arr.length) {
-      const index = arr.indexOf(max.toString(), i)
-      if (index > -1) {
-        lastIndex = index
-      }
-    }
+    const lastIndex = arr.lastIndexOf(max.toString())
     if (lastIndex > 0 && arr[0] !== max) {
       arr[lastIndex] = arr[0]
       arr[0] = max
