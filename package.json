@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ScoutYin/LeetCode-JavaScript.git",
+  "author": "ScoutYin <scoutyin.1900@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.1"
+  }
+}
