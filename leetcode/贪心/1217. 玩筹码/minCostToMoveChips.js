@@ -1,3 +1,6 @@
+// LeetCode 原题：1217. 玩筹码
+// https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/
+
 /**
  * 根据题目可知，间隔一位变换是不需要代价的，只有相邻位变换需要代价
  * 既然间隔位变换不需要代价，那么两个位置之间不管间隔了多少位，
