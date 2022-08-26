@@ -26,14 +26,7 @@ module.exports = {
 			{
 				usePrettierrc: false // 不使用.prettierrc配置文件
 			}
-		]
-	},
-	overrides: [
-		{
-			files: ['leetcode/链表/**/*.js'],
-			rules: {
-				'no-unused-vars': 0
-			}
-		}
-	]
+		],
+		'no-unused-vars': 0
+	}
 };
